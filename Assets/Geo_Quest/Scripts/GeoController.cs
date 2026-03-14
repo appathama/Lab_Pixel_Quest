@@ -55,7 +55,7 @@ public class GeoController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
+        sr = transform.GetChild(0).GetComponent<SpriteRenderer>();
     }
 
  

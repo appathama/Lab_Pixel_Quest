@@ -1859,6 +1859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1760516096}
   - component: {fileID: 1760516095}
+  - component: {fileID: 1760516097}
   m_Layer: 0
   m_Name: Grass_Sample
   m_TagString: Untagged
@@ -1933,6 +1934,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1760516097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760516094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72421c94b0b74c43b6f3ac356635dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counter: 4
+  speed: 10
+  nextlevel: Level_2
 --- !u!1001 &1932900839
 PrefabInstance:
   m_ObjectHideFlags: 0
